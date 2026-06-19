@@ -12,7 +12,7 @@
         "movie",
         "tv"
       ],
-      "filename": "providers/animedekho.js",
+      "filename": "Providers/animedekho.js",
       "enabled": true,
       "formats": [
         "mp4",
