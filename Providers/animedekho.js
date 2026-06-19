@@ -297,7 +297,7 @@ async function extractAWSStream(url, referer, streamCallback) {
   try {
     const hash = url.split('/').pop();
     const mainUrl = getBaseUrl(url);
-    const apiUrl = `${mainUrl}/player/index.php?data=${hash}&do=getVideo}`;
+    const apiUrl = `${mainUrl}/player/index.php?data=${hash}&do=getVideo`;
     const resp = await fetch(apiUrl, {
       method: 'POST',
       headers: {
