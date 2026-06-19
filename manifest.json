@@ -1,0 +1,30 @@
+{
+  "name": "Tapframe's Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "animedekho",
+      "name": "AnimeDekho",
+      "description": "Hindi/Tamil/Telugu dubbed anime and cartoons from AnimeDekho",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/animedekho.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "logo": "https://animedekho.app/wp-content/uploads/2023/02/cropped-favicon-270x270.png",
+      "contentLanguage": [
+        "hi",
+        "ta",
+        "te",
+        "en"
+      ]
+    }
+  ]
+}
