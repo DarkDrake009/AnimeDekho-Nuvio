@@ -12,13 +12,37 @@
         "movie",
         "tv"
       ],
-      "filename": "Providers/animedekho.js",
+      "filename": "providers/animedekho.js",
       "enabled": true,
       "formats": [
         "mp4",
         "mkv"
       ],
       "logo": "https://animedekho.app/wp-content/uploads/2023/02/cropped-favicon-270x270.png",
+      "contentLanguage": [
+        "hi",
+        "ta",
+        "te",
+        "en"
+      ]
+    },
+    {
+      "id": "rareanimes",
+      "name": "RareAnimes",
+      "description": "Hindi/Tamil/Telugu dubbed anime and cartoons from Rare Toons India",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/rareanimes.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "logo": "https://www.rareanimes.mov/wp-content/uploads/2023/11/cropped-Rare-Animes-India-270x270.png",
       "contentLanguage": [
         "hi",
         "ta",
